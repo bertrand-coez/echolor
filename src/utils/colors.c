@@ -11,10 +11,10 @@ Color const colors[] = {
     {"green", "g", 32},
     {"yellow", "y", 33},
     {"blue", "bl", 34},
-    {"purple", "pl", 35},
-    {"magenta", "mg", 35},
-    {"cyan", "cy", 36},
-    {"white", "wh", 37}};
+    {"purple", "p", 35},
+    {"magenta", "m", 35},
+    {"cyan", "c", 36},
+    {"white", "w", 37}};
 
 static signed int len = sizeof(colors) / sizeof(colors[0]);
 
