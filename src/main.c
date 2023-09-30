@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
         printf("\n");
         return 0;
     case 2:
-        printf("%s", argv[1]);
+        printf("%s\n", argv[1]);
         return 0;
     }
 
