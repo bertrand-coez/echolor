@@ -23,9 +23,9 @@ int main(int argc, char *argv[])
 
     if (codes.bg != -1)
     {
-        printf("\x1B[%d;%d;%dm%s\x1B[m", codes.style, codes.fg, codes.bg, argv[1]);
+        printf("\x1B[%d;%d;%dm%s\x1B[m\n", codes.style, codes.fg, codes.bg, argv[1]);
         return 0;
     }
-    printf("\x1B[%d;%dm%s\x1B[m", codes.style, codes.fg, argv[1]);
+    printf("\x1B[%d;%dm%s\x1B[m\n", codes.style, codes.fg, argv[1]);
     return 0;
 }
