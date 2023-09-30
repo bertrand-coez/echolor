@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 
     Arguments arguments = parseArguments(argc, argv);
     ColorCodes codes = getColorCodes(arguments);
-    char *reset = "\e[m";
 
     if (codes.bg != -1)
     {
